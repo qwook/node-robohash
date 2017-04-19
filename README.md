@@ -1,8 +1,14 @@
-`node-robohash` is intended to implement @e1ven's [Robohash](https://github.com/e1ven/Robohash).
+`node-robohash` is intended to implement @e1ven's [Robohash](https://github.com/e1ven/Robohash). Original code by [@donpark](https://github/donpark/node-robohash).
+
+Can be used for a fun way to quickly generate "avatars" for unique strings. Example include: robots generated for hostnames, robots generated for release numbers.
 
 # Status
 
-Only rendering part is implemented.
+Rendering and generating robots based on hash is implemented.
+
+Project has been stripped down and coffeescript removed.
+
+svg.js is generated from the original svg.coffee, and has a lot of formatting issues.
 
 SVG parsing and rendering code is based on relevant code in [Fabric.js](https://github.com/kangax/fabric.js). I'll add the necessary mentions ASAP.
 
@@ -15,13 +21,13 @@ relevent SVG elements are rendered.
 
 # Installation
 
-    git clone git://github.com/donpark/node-robohash.git
+    git clone git://github.com/qwook/node-robohash.git
     cd node-robohash
-    npm update
+    `npm install`
     
 # Launching
 
     cd node-robohash
     node app.js
 
-You should see something like [this](https://github.com/donpark/node-robohash/raw/master/doc/example1.png) at [http://localhost:3000](http://localhost:3000):
+You should see a robot at [http://localhost:3000/test](http://localhost:3000/test):
