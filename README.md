@@ -8,8 +8,6 @@ Rendering and generating robots based on hash is implemented.
 
 Project has been stripped down and coffeescript removed.
 
-svg.js is generated from the original svg.coffee, and has a lot of formatting issues.
-
 SVG parsing and rendering code is based on relevant code in [Fabric.js](https://github.com/kangax/fabric.js). I'll add the necessary mentions ASAP.
 
 # Known Issues
@@ -17,7 +15,7 @@ SVG parsing and rendering code is based on relevant code in [Fabric.js](https://
 Background SVG files are not being rendered correctly, likely because
 relevent SVG elements are rendered.
 
-`svg.coffee` module is currently hardwired to handle Robohash SVG files and replaces specific color values with random color. This will be cleaned up and expanded later.
+`svg.js` is generated from the original `svg.coffee`, and has a lot of formatting issues.
 
 # Installation
 
