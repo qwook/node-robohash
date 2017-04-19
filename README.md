@@ -23,11 +23,11 @@ relevent SVG elements are rendered.
 
     git clone git://github.com/qwook/node-robohash.git
     cd node-robohash
-    `npm install`
+    npm install
     
 # Launching
 
     cd node-robohash
-    node app.js
+    npm start
 
-You should see a robot at [http://localhost:3000/test](http://localhost:3000/test):
+You should see a robot at [http://localhost:3030/test](http://localhost:3030/test):
